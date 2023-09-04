@@ -1,0 +1,71 @@
+/* Reset de estilos para quitar márgenes y rellenos predeterminados */
+body, h1, h2, p, ul, li, select {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del encabezado y la barra de navegación */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Estilo de las secciones */
+section {
+    padding: 20px;
+}
+
+/* Estilo del selector de categoría */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Estilo de la galería de dibujos */
+#galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.dibujo {
+    width: 30%; /* Ajusta el ancho según tu preferencia */
+    margin-bottom: 20px;
+    border: 2px solid #333;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
